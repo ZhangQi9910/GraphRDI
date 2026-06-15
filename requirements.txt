@@ -1,0 +1,26 @@
+# GraphRDI tested dependencies
+# Tested on AutoDL: Python 3.8.10, CUDA 11.3, torch 1.12.0+cu113.
+# For clean installation of the CUDA 11.3 PyTorch wheel, keep the following index URL.
+--extra-index-url https://download.pytorch.org/whl/cu113
+
+torch==1.12.0+cu113
+torchvision==0.13.0+cu113
+torch-geometric==2.6.1
+
+rdkit==2024.3.5
+numpy==1.24.4
+pandas==2.0.3
+scikit-learn==1.3.2
+scipy==1.10.1
+gensim==4.3.3
+matplotlib==3.5.0
+seaborn==0.13.2
+networkx==3.1
+tqdm==4.61.2
+joblib==1.4.2
+psutil==7.0.0
+openpyxl==3.1.5
+
+# Optional PyG acceleration packages were not installed in the tested AutoDL environment,
+# and GATConv import passed without them. Install them only if your PyG runtime requires them:
+# pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-1.12.0+cu113.html

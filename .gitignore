@@ -1,0 +1,17 @@
+.idea/
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+
+feature_cache/
+saved_models/
+results/
+*.pt
+*.pth
+
+.DS_Store
+Thumbs.db
