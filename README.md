@@ -403,7 +403,7 @@ If you use this code, please cite the GraphRDI manuscript:
 
 ```text
 Dynamic RNA structure modeling enables accurate prediction of RNA-targeted small molecules
-Qi Zhang, Yuxiao Wei, Youwei Sun, Xu-Dong Luo, Meng-Jie Hu, and Dong-Jun Yu
+
 ```
 
 ---
